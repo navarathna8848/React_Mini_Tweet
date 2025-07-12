@@ -7,18 +7,8 @@
     import Nav from "./Nav";
     import NewPost from "./NewPost";
     import PostPage from "./PostPage";
-    import { Link } from "react-router-dom";
-    import Post from "./Post";
-    import PostLayout from "./PostLayout";
-    import { useEffect, useState,useContext } from "react";
-    import { format } from 'date-fns';
-    import { useNavigate } from 'react-router-dom';
-    import api from './api/posts';
     import EditPost from "./EditPost";
-    import useWindowSize from './hooks/useWindowSize';
-    import useAxiosFetch from './hooks/useAxiosFetch';
-    import { DataProvider } from "./context/DataContext";
-    import DataContext from './context/DataContext';
+    
 
 
     function App() {
